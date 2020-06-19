@@ -15,11 +15,7 @@
                     <img src="~/assets/img/icon-instagram.svg">
                 </span>
             </a>
-            <a target="_blank" href="https://www.facebook.com/Pascal-van-der-Steen-design-251418652228243/?eid=ARCnbgDoz-dDknX1JagelhaiImAblQhmpfylEYA1XHSDUA_-bPndCGSddyXD2AuoNnpzWM_KW8QRo4U_&amp;timeline_context_item_type=intro_card_work&amp;timeline_context_item_source=100002308769200&amp;f">
-                <span>
-                    <img src="~/assets/img/icon-facebook.svg">
-                </span>
-            </a>
+          
             <a target="_blank" href="https://www.linkedin.com/in/pascal-v-a453578a">
                 <span>
                     <img src="~/assets/img/icon-linkedin.svg">
