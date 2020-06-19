@@ -17,7 +17,8 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Ubuntu' }
 
     ]
   },
@@ -47,11 +48,13 @@ export default {
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt/content
     '@nuxt/content',
+    '@nuxtjs/style-resources',
   ],
 
   styleResources: {
     scss: [
-      '~assets/scss/global.scss'
+      __dirname + '/assets/scss/_layout/_variables.scss',
+      __dirname + '/assets/scss/_core/_mixins.scss'
     ]
   },
 
