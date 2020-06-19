@@ -46,6 +46,9 @@ export default {
     // Doc: https://github.com/nuxt/content
     '@nuxt/content',
   ],
+
+  target: 'static', // default: 'server'
+
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
