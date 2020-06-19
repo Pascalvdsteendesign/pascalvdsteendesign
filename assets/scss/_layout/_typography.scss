@@ -1,0 +1,136 @@
+// _typography.scss
+// =============================================================================
+ 
+// Body
+html,
+body
+{
+    font-family: $font-family;
+    font-size: $font-size-small;
+    line-height: 1.5rem;
+    color: $color-primary;
+ 
+    @include respond-to(md)
+    {
+        font-size: $font-size-normal;
+    }
+}
+ 
+// Headings
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6
+{
+    font-family: $font-family;
+    font-weight: $font-weight-bold;
+    color: $color-primary;
+}
+ 
+h1
+{
+    // Mobile font size
+    //font-size: value;
+    //line-height: value;
+ 
+    @include respond-to(md)
+    {
+        // Desktop font-size
+        //font-size: value;
+        //line-height: value;
+    }
+}
+ 
+h2
+{
+    // Mobile font size
+    //font-size: value;
+    //line-height: value;
+ 
+    @include respond-to(md)
+    {
+        // Desktop font-size
+        //font-size: value;
+        //line-height: value;
+    }
+}
+ 
+h3
+{
+    // Mobile font size
+    //font-size: value;
+    //line-height: value;
+ 
+    @include respond-to(md)
+    {
+        // Desktop font-size
+        //font-size: value;
+        //line-height: value;
+    }
+}
+ 
+h4
+{
+    // Mobile font size
+    //font-size: value;
+    //line-height: value;
+ 
+    @include respond-to(md)
+    {
+        // Desktop font-size
+        //font-size: value;
+        //line-height: value;
+    }
+}
+ 
+h5
+{
+    // Mobile font size
+    //font-size: value;
+    //line-height: value;
+ 
+    @include respond-to(md)
+    {
+        // Desktop font-size
+        //font-size: value;
+        //line-height: value;
+    }
+}
+ 
+h6
+{
+    // Mobile font size
+    //font-size: value;
+    //line-height: value;
+ 
+    @include respond-to(md)
+    {
+        // Desktop font-size
+        //font-size: value;
+        //line-height: value;
+    }
+}
+ 
+// Rich Text Editor
+.rte
+{
+    // Lists
+    ul,
+    ol
+    {
+        padding-left: 20px;
+    }
+ 
+    // Hyperlinks
+    a
+    {
+    }
+}

@@ -1,0 +1,57 @@
+// -------- sass Mixins -------------
+
+@mixin respond-to($breakpoint) {
+    @if $breakpoint=="sm" {
+        @media (min-width: $screen-sm-min) {
+            @content;
+        }
+    }
+    @else if $breakpoint=="md" {
+        @media (min-width: $screen-md-min) {
+            @content;
+        }
+    }
+    @else if $breakpoint=="lg" {
+        @media (min-width: $screen-lg-min) {
+            @content;
+        }
+    }
+    @else if $breakpoint=="xl" {
+        @media (min-width: $screen-xl-min) {
+            @content;
+        }
+    }
+    @else {
+        @media (min-width: $breakpoint) {
+            @content;
+        }
+    }
+}
+
+@mixin respond-to-max($breakpoint) {
+    @if $breakpoint=="xs" {
+        @media (max-width: $screen-xs-max) {
+            @content;
+        }
+    }
+    @else if $breakpoint=="sm" {
+        @media (max-width: $screen-sm-max) {
+            @content;
+        }
+    }
+    @else if $breakpoint=="md" {
+        @media (max-width: $screen-md-max) {
+            @content;
+        }
+    }
+    @else if $breakpoint=="lg" {
+        @media (max-width: $screen-lg-max) {
+            @content;
+        }
+    }
+    @else {
+        @media (max-width: $breakpoint) {
+            @content;
+        }
+    }
+}

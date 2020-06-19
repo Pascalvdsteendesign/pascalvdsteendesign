@@ -1,0 +1,38 @@
+// --------- sass settings ------------
+
+// Import fonts
+
+
+// Breakpoints
+$screen-sm-min: 576px;
+$screen-md-min: 768px;
+$screen-lg-min: 992px;
+$screen-xl-min: 1200px;
+$screen-xs-max: $screen-sm-min - 0.02;
+$screen-sm-max: $screen-md-min - 0.02;
+$screen-md-max: $screen-lg-min - 0.02;
+$screen-lg-max: $screen-xl-min - 0.02;
+
+// Colors
+$color-primary: #f00;
+$color-secondary: #0f0;
+$color-tertiary: #00f;
+$color-gray: #ccc;
+$color-white: #fff;
+$color-black: #000;
+
+// Font families
+$font-family: 'Ubuntu', sans-serif;
+
+// Font weights
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+// Font size
+$font-size-small: 16px;
+$font-size-normal: 20-px;
+
+// Transitions
+$transition-speed: 200ms;
+$transition-effect: ease-in-out;
