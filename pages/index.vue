@@ -24,6 +24,7 @@
                 <span>
                     <img src="~/assets/img/icon-linkedin.svg">
                 </span>
+                
             </a>
             <a target="_blank" href="mailto:pascalvdsteen@hotmail.com">
                 <span style="font-size: 1.2em; color: rgb(255, 157, 118);;">
