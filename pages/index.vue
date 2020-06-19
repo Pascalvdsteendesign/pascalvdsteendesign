@@ -17,7 +17,7 @@
             </a>
             <a target="_blank" href="https://www.facebook.com/Pascal-van-der-Steen-design-251418652228243/">
                 <span>
-                    <img src="~/assets/img/icon-facebook.svg">
+                    <img src="~/assets/img/icon-facebook-2.svg">
                 </span>
             </a>
             <a target="_blank" href="https://www.linkedin.com/in/pascal-v-a453578a">
