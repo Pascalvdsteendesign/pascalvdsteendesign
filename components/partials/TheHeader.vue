@@ -77,15 +77,18 @@ export default {
 .header {
     display: flex;
     flex-direction: column;
-    margin-top: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     overflow: hidden;
 
     @include respond-to(md) {
+        margin-top: 2rem;
         overflow: unset;
     }
 
-    @include respond-to(lg) {
+    @include respond-to(xl) {
         flex-direction: row;
+         margin-top: 5rem;
     }
 
     .h3 {
@@ -94,7 +97,7 @@ export default {
 
     .detail {
         position: relative;
-        height: 380px;
+        height: 370px;
         padding: 2rem 0 0 3rem;
         margin-top: 1rem;
         border: solid 5px $color-primary;
@@ -104,11 +107,6 @@ export default {
             height: 280px;
         }
 
-        @include respond-to(lg) {
-            margin-left: -12rem;
-            margin-top: 7rem;
-
-        }
 
         @include respond-to(xl) {
             margin-top: 0rem;
@@ -192,7 +190,8 @@ export default {
                     right: 3rem;
 
                 }
-                 @include respond-to(xl) {
+
+                @include respond-to(xl) {
                     top: 0rem;
                     right: 1rem;
                 }

@@ -15,23 +15,28 @@
 
 <style lang="scss" scoped>
 .navigation {
-    height: 150px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     padding-right: 2rem;
 
     @include respond-to(md) {
-         padding-right: 5rem;
+        padding-right: 5rem;
+        height: 100px;
     }
 
     .logo {
         position: absolute;
-        top: 1rem;
-        left: 1rem;
+        top: 0.5rem;
+        left: 1.5rem;
 
         img {
-            width: 100px;
+            width: 50px;
+
+            @include respond-to(md) {
+                width: 80px;
+            }
         }
     }
 
@@ -40,9 +45,7 @@
             color: $color-primary;
             font-weight: $font-weight-bold;
             transition: ease 150ms;
-
         }
     }
-
 }
 </style>
