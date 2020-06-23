@@ -19,7 +19,11 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding-right: 5rem;
+    padding-right: 2rem;
+
+    @include respond-to(md) {
+         padding-right: 5rem;
+    }
 
     .logo {
         position: absolute;

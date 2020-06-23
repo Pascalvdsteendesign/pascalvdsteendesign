@@ -1,5 +1,4 @@
 <template>
-
 <section class="container header">
     <div class="title">
         <h1>
@@ -25,7 +24,7 @@
                 <span>
                     <img src="~/assets/img/icon-linkedin.svg">
                 </span>
-                
+
             </a>
             <a target="_blank" href="mailto:pascalvdsteen@hotmail.com">
                 <span style="font-size: 1.2em; color: rgb(255, 157, 118);;">
@@ -54,7 +53,6 @@
 </section>
 </template>
 
-
 <script>
 import TheClock from '~/components/TheClock.vue'
 
@@ -65,22 +63,14 @@ export default {
 }
 </script>
 
-
-
 <style lang="scss" scoped>
 .container {
     padding-left: 2rem;
     padding-right: 2rem;
-    max-width: 1920px;
 
     @include respond-to(md) {
         padding-left: 4rem;
         padding-right: 4rem;
-    }
-
-    @include respond-to(lg) {
-        padding-left: 6rem;
-        padding-right: 0;
     }
 }
 
@@ -105,9 +95,7 @@ export default {
     .detail {
         position: relative;
         height: 380px;
-        width: 100%;
         padding: 2rem 0 0 3rem;
-        margin-right: 2rem;
         margin-top: 1rem;
         border: solid 5px $color-primary;
 
@@ -118,12 +106,12 @@ export default {
 
         @include respond-to(lg) {
             margin-left: -12rem;
-               margin-top: 6rem;
-      
+            margin-top: 7rem;
+
         }
 
-          @include respond-to(xl) {
-               margin-top: 0rem;
+        @include respond-to(xl) {
+            margin-top: 0rem;
             margin-left: -6rem;
             width: 550px;
             height: 280px;
@@ -190,19 +178,23 @@ export default {
             }
 
             .clock-wrapper {
+                display: none;
                 position: absolute;
-                top: -12rem;
-                right: 2rem;
 
-                 @include respond-to(md) {
+                @include respond-to(md) {
+                    display: block;
                     top: -5rem;
-                right: 1rem;
+                    right: 1rem;
                 }
-                
 
                 @include respond-to(lg) {
-                    top: 0;
-                right: 1rem;
+                    top: -4rem;
+                    right: 3rem;
+
+                }
+                 @include respond-to(xl) {
+                    top: 0rem;
+                    right: 1rem;
                 }
             }
 

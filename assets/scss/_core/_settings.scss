@@ -1,1 +1,35 @@
 // --------- sass settings ------------
+$container-xs-min: 540px; // container size xs
+$container-sm-min: 720px; // container size sm
+$container-md-min: 960px; // container size md
+$container-lg-min: 1140px; // container size lg
+
+
+
+
+.container {
+    margin: 0 auto;
+    padding: 0 1rem;
+
+    @include respond-to(xs){
+        max-width: $container-xs-min;   
+    }
+
+    @include respond-to(sm){
+        max-width: $container-sm-min;   
+    }
+
+    @include respond-to(md){
+        max-width: $container-md-min;   
+    }
+
+   @include respond-to(lg){
+        max-width: $container-lg-min;   
+    }
+}
+
+
+.container-fluid {
+    margin: 0 auto;
+    padding: 0 1rem;
+}

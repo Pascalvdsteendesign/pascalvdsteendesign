@@ -14,8 +14,10 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
-    ],
+      { name: 'keywords', content: 'pascal, pascal van der steen, developer, design, develop, fotografie, website, logo, marketing, online marketing, ontwerp, concept, pascal van der steen, seo, ui, webdesigner,zuid-limburg, limburg, website design, webbureau ' },
+      {
+        hid: 'description', name: 'description', content: 'Hi, ik ben Pascal. Ik ontwikkel & design websites en webapplicaties, waarbij de gebruikers ervaring altijd centraal staat.'
+      }],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Ubuntu' }
