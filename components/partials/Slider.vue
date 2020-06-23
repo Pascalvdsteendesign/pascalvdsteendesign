@@ -67,6 +67,7 @@ export default {
                 "swipeToSlide": true,
                 "arrows": true,
                 "autoplay": true,
+                "swipeToSlide": true,
 
                 "initialSlide": 2,
                 "responsive": [{
@@ -78,7 +79,7 @@ export default {
                     {
                         "breakpoint": 767,
                         "settings": {
-                            "slidesToShow": 2,
+                            settings: "unslick"
 
                         }
                     },
