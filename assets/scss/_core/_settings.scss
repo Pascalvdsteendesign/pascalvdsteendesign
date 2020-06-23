@@ -2,7 +2,7 @@
 $container-xs-min: 540px; // container size xs
 $container-sm-min: 720px; // container size sm
 $container-md-min: 960px; // container size md
-$container-lg-min: 1140px; // container size lg
+$container-lg-min: 1440px; // container size lg
 
 
 
@@ -28,6 +28,11 @@ $container-lg-min: 1140px; // container size lg
     }
 }
 
+
+.container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
 
 .container-fluid {
     margin: 0 auto;

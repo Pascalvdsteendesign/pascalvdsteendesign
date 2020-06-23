@@ -1,17 +1,18 @@
 <template>
 <div>
-  <TheHeader/>
+    <TheHeader />
+    <Slider />
 </div>
-
 </template>
 
 <script>
-
 import TheHeader from '~/components/partials/TheHeader.vue'
+import Slider from '~/components/partials/Slider.vue'
 
 export default {
     components: {
-        TheHeader
+        TheHeader,
+        Slider
     }
 }
 </script>

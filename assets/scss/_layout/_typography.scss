@@ -84,32 +84,20 @@ h3, .h3
 h4, .h4
 {
     // Mobile font size
-    //font-size: value;
+  font-size: 20px;
     //line-height: value;
  
-    @include respond-to(md)
-    {
-        // Desktop font-size
-        font-size: 20px;
-        //line-height: value;
-    }
 }
  
-h5
+h5, .h5
 {
     // Mobile font size
-    //font-size: value;
+           font-size: 16px;
     //line-height: value;
- 
-    @include respond-to(md)
-    {
-        // Desktop font-size
-        //font-size: value;
-        //line-height: value;
-    }
+
 }
  
-h6
+h6, .h6
 {
     // Mobile font size
     //font-size: value;

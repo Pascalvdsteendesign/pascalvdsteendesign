@@ -65,15 +65,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.container {
-    padding-left: 2rem;
-    padding-right: 2rem;
 
-    @include respond-to(md) {
-        padding-left: 4rem;
-        padding-right: 4rem;
-    }
-}
 
 .header {
     display: flex;
