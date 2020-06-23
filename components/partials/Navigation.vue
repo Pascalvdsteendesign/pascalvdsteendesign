@@ -2,7 +2,7 @@
 <div class="navigation">
     <a href="#" class="logo">
         <span>
-            <img src="~/assets/img/logo.svg">
+            <img src="~/assets/img/logo.png">
         </span>
     </a>
     <ul class="link-list">
@@ -29,6 +29,10 @@
         position: absolute;
         top: 1rem;
         left: 1rem;
+
+        img {
+            width: 100px;
+        }
     }
 
     .link-list {
