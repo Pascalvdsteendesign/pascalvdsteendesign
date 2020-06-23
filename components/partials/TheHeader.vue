@@ -45,9 +45,10 @@
                 <div class="h4">Gevestigd</div>
                 <div class="small-font">Rijmerstok</div>
             </div>
-            <div class="clock-wrapper">
-                <TheClock></TheClock>
-            </div>
+
+        </div>
+        <div class="clock-wrapper">
+            <TheClock></TheClock>
         </div>
     </div>
 </section>
@@ -79,6 +80,7 @@ export default {
     flex-direction: column;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    padding-bottom: 2rem;
     overflow: hidden;
 
     @include respond-to(md) {
@@ -88,7 +90,7 @@ export default {
 
     @include respond-to(xl) {
         flex-direction: row;
-         margin-top: 5rem;
+        margin-top: 5rem;
     }
 
     .h3 {
@@ -97,7 +99,7 @@ export default {
 
     .detail {
         position: relative;
-        height: 370px;
+        height: 350px;
         padding: 2rem 0 0 3rem;
         margin-top: 1rem;
         border: solid 5px $color-primary;
@@ -106,7 +108,6 @@ export default {
             width: 550px;
             height: 280px;
         }
-
 
         @include respond-to(xl) {
             margin-top: 0rem;
@@ -174,29 +175,13 @@ export default {
                     line-height: 1 !important;
                 }
             }
+        }
 
-            .clock-wrapper {
-                display: none;
-                position: absolute;
+        .clock-wrapper {
 
-                @include respond-to(md) {
-                    display: block;
-                    top: -5rem;
-                    right: 1rem;
-                }
-
-                @include respond-to(lg) {
-                    top: -4rem;
-                    right: 3rem;
-
-                }
-
-                @include respond-to(xl) {
-                    top: 0rem;
-                    right: 1rem;
-                }
-            }
-
+            position: absolute;
+            bottom: 1rem;
+            right: 1rem;
         }
     }
 }
