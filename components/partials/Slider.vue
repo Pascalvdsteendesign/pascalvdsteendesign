@@ -1,6 +1,8 @@
 <template>
 <section class="container projects">
-    <div class="my-slider">
+  <div class="row">
+    <div class="col-12">
+         <div class="my-slider">
         <VueSlickCarousel v-bind="settings">
             <a href="#" class="thumb">
                 <div class="bg-image" :style="{ 'background-image': 'url(' + 'https://images.unsplash.com/photo-1587613989342-7e21016caff3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80' + ')' }"> </div>
@@ -48,6 +50,9 @@
         <div class="blur">
         </div>
     </div>
+</div>
+
+    </div>
 </section>
 </template>
 
@@ -63,6 +68,7 @@ export default {
       settings: {
         infinite: true,
         pauseOnHover: true,
+
         slidesToShow: 4,
         arrows: true,
         autoplay: true,
@@ -99,6 +105,18 @@ export default {
 </script>
 
 <style lang="scss">
+.row {
+  display: flex;
+  margin: 0 -16px;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
 .projects {
   position: relative;
   height: 500px;
@@ -194,10 +212,9 @@ export default {
     .thumb {
       position: relative;
       height: 380px;
-      width: 420px !important;
+      width: 100% !important;
 
       @include respond-to(sm) {
-        width: 100% !important;
         height: 480px;
       }
 
