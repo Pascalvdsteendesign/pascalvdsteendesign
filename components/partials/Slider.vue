@@ -218,6 +218,7 @@ export default {
       position: relative;
       height: 380px;
       width: 100% !important;
+      min-width: 270px !important;
 
       @include respond-to(sm) {
         height: 480px;
