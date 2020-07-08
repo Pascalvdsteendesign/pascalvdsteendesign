@@ -27,7 +27,7 @@
                     <div class="bg-image" :style="{ 'background-image': 'url(' + 'https://images.unsplash.com/photo-1587613989342-7e21016caff3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80' + ')' }"> </div>
                     <div class="thumb-inner">
                         <div class="h5">development</div>
-                        <div class="h3 border-b">Byldis<br>In opdracht van Nexwork</div>
+                        <div class="h3 border-b">Byldis<div class="h6">In opdracht van Nexwork</div></div>
                         <div href="#" class="h5">Meer informatie</div>
                     </div>
                 </a>
@@ -44,7 +44,7 @@
             </div>
             <div class="thumb">
                 <a href="#">
-                    <div class="bg-image" :style="{ 'background-image': 'url(' + 'https://images.unsplash.com/photo-1587613989342-7e21016caff3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80' + ')' }"> </div>
+                    <div class="bg-image" :style="{ 'background-image': 'url(' + 'https://images.unsplash.com/photo-1554050857-c84a8abdb5e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80' + ')' }"> </div>
                     <div class="thumb-inner">
                         <div class="h5">Contact</div>
                         <div class="h3 border-b">Uw project<br> hier?</div>
@@ -75,6 +75,7 @@ export default {
         slidesToScroll: 1,
         initialSlide: 0,
         autoplay: true,
+        pauseOnHover: true,
         responsive: [
           {
             breakpoint: 992,
@@ -136,6 +137,7 @@ export default {
     .thumb-inner,
     .h5,
     .h3,
+    .h6,
     a {
       color: $color-secondary;
     }
@@ -242,8 +244,9 @@ export default {
         opacity: 1;
         transition: ease 300ms;
 
-        span {
+        .h6 {
           font-size: 16px;
+          margin-top: 0.6rem;
         }
 
         .h5 {
@@ -265,7 +268,8 @@ export default {
         }
 
         .h5,
-        .h3 {
+        .h3,
+        .h6 {
           color: $color-secondary !important;
         }
 
