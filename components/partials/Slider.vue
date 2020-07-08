@@ -73,7 +73,6 @@ export default {
         arrows: true,
         autoplay: true,
         initialSlide: 2,
-
         responsive: [
           {
             breakpoint: 1024,
@@ -127,8 +126,11 @@ export default {
   }
 
   .slick-slider {
-    width: 100%;
+    display: table !important;
+    table-layout: fixed !important;
+    width: 100% !important;
   }
+
   .my-slider.slick-active {
     opacity: 1;
   }
