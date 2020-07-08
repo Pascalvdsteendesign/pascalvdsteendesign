@@ -17,12 +17,12 @@
             </a>
              <a target="_blank" href="https://www.instagram.com/psvdsteen">
                 <span>
-                    <img src="~/assets/img/icon-instagram-white.svg">
+                    <img src="~/assets/img/icon-instagram-white2.svg">
                 </span>
             </a>
             <a target="_blank" href="https://www.facebook.com/Pascal-van-der-Steen-design-251418652228243/">
                 <span>
-                    <img src="~/assets/img/icon-facebook-2-white.svg">
+                    <img src="~/assets/img/icon-fb.svg">
                 </span>
             </a>
         </div>
