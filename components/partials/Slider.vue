@@ -3,18 +3,19 @@
     <div class="my-slider">
         <VueSlickCarousel v-bind="settings">
             <div class="thumb">
-                <a href="#">
-                    <div class="bg-image" :style="{ 'background-image': 'url(' + 'https://images.unsplash.com/photo-1587613989342-7e21016caff3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80' + ')' }"> </div>
+                <a target="_blank" href="https://www.byldis.com/">
+                    <div class="bg-image" :style="{ 'background-image': 'url(' + require('~/assets/img/byldis.jpg') + ')' }"> </div>
                     <div class="thumb-inner">
                         <div class="h5">development</div>
-                        <div class="h3 border-b">Mondani<br> Farm</div>
-                        <div class="h5">Meer informatie</div>
+                        <div class="h3 border-b">Byldis<div class="h6">In opdracht van Nexwork</div>
+                        </div>
+                        <div href="#" class="h5">Meer informatie</div>
                     </div>
                 </a>
             </div>
             <div class="thumb">
-                <a href="#">
-                    <div class="bg-image" :style="{ 'background-image': 'url(' + 'https://images.unsplash.com/photo-1517174637803-6929e01b6e63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80' + ')' }"> </div>
+                <a target="_blank" href="https://www.thanda-ecologischcentrum.nl/">
+                    <div class="bg-image" :style="{ 'background-image': 'url(' + require('~/assets/img/thanda.jpg') + ')' }"> </div>
                     <div class="thumb-inner">
                         <div class="h5">development & design</div>
                         <div class="h3 border-b">Thanda <br>ECB</div>
@@ -23,18 +24,19 @@
                 </a>
             </div>
             <div class="thumb">
-                <a href="#">
-                    <div class="bg-image" :style="{ 'background-image': 'url(' + 'https://images.unsplash.com/photo-1587613989342-7e21016caff3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80' + ')' }"> </div>
+                <a href="https://www.mondanifarm.com/">
+                    <div class="bg-image" :style="{ 'background-image': 'url(' + require('~/assets/img/mondani.jpg') + ')' }"> </div>
                     <div class="thumb-inner">
                         <div class="h5">development</div>
-                        <div class="h3 border-b">Byldis<div class="h6">In opdracht van Nexwork</div></div>
-                        <div href="#" class="h5">Meer informatie</div>
+                        <div class="h3 border-b">Mondani<br> Farm</div>
+                        <div class="h5">Meer informatie</div>
                     </div>
                 </a>
             </div>
+
             <div class="thumb">
-                <a href="#">
-                    <div class="bg-image" :style="{ 'background-image': 'url(' + 'https://images.unsplash.com/photo-1517174637803-6929e01b6e63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80' + ')' }"> </div>
+                <a target="_blank" href="https://hoeve-doodleger.netlify.app/">
+                    <div class="bg-image" :style="{ 'background-image': 'url(' + require('~/assets/img/hoeve.png') + ')' }"> </div>
                     <div class="thumb-inner">
                         <div class="h5">development & design</div>
                         <div class="h3 border-b">Hoeve<br> doodleger</div>
@@ -43,7 +45,7 @@
                 </a>
             </div>
             <div class="thumb">
-                <a href="#">
+                <a target="_blank" href="mailto:hello@pascalvdsteen.com">
                     <div class="bg-image" :style="{ 'background-image': 'url(' + 'https://images.unsplash.com/photo-1554050857-c84a8abdb5e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80' + ')' }"> </div>
                     <div class="thumb-inner">
                         <div class="h5">Contact</div>
@@ -70,11 +72,10 @@ export default {
     return {
       settings: {
         infinite: true,
-        speed: 500,
+        speed: 600,
         slidesToShow: 4,
         slidesToScroll: 1,
         initialSlide: 0,
-        autoplay: true,
         pauseOnHover: true,
         responsive: [
           {
@@ -219,6 +220,7 @@ export default {
         height: 100%;
         width: 100%;
         background-size: cover;
+        background-position: center;
         opacity: 0;
         transition: ease 300ms;
 
@@ -229,7 +231,7 @@ export default {
           height: 100%;
           top: 0;
           left: 0;
-          background: rgba(0, 0, 0, 0.5);
+          background: rgba(0, 0, 0, 0.7);
           opacity: 1;
           transition: all 0.5s;
           -webkit-transition: all 0.5s;
