@@ -69,28 +69,28 @@ export default {
   data() {
     return {
       settings: {
-        infinite: false,
+        infinite: true,
         speed: 500,
         slidesToShow: 4,
         slidesToScroll: 1,
         initialSlide: 0,
         responsive: [
           {
-            breakpoint: 1024,
+            breakpoint: 992,
             settings: {
               slidesToShow: 3,
               slidesToScroll: 1
             }
           },
           {
-            breakpoint: 600,
+            breakpoint: 768,
             settings: {
               slidesToShow: 2,
               slidesToScroll: 1
             }
           },
           {
-            breakpoint: 480,
+            breakpoint: 575,
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1
@@ -206,7 +206,6 @@ export default {
       position: relative;
       height: 380px;
       width: 100% !important;
-      min-width: 270px !important;
 
       @include respond-to(sm) {
         height: 480px;
