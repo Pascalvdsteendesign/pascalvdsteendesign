@@ -27,7 +27,7 @@
                     <div class="bg-image" :style="{ 'background-image': 'url(' + 'https://images.unsplash.com/photo-1587613989342-7e21016caff3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80' + ')' }"> </div>
                     <div class="thumb-inner">
                         <div class="h5">development</div>
-                        <div class="h3 border-b">Byldis<br>In opdracht van Nexwork</div>
+                        <div class="h3 border-b">Byldis<br><span>In opdracht van Nexwork</span></div>
                         <div href="#" class="h5">Meer informatie</div>
                     </div>
                 </a>
@@ -74,6 +74,7 @@ export default {
         slidesToShow: 4,
         slidesToScroll: 1,
         initialSlide: 0,
+        autoplay: true,
         responsive: [
           {
             breakpoint: 992,
