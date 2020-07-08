@@ -1,7 +1,5 @@
 <template>
 <section class="container projects">
-  <div class="row">
-    <div class="col-12">
          <div class="my-slider">
         <VueSlickCarousel v-bind="settings">
             <a href="#" class="thumb">
@@ -50,9 +48,6 @@
         <div class="blur">
         </div>
     </div>
-</div>
-
-    </div>
 </section>
 </template>
 
@@ -74,6 +69,12 @@ export default {
         autoplay: true,
         initialSlide: 2,
         responsive: [
+          {
+            breakpoint: 2560,
+            settings: {
+              slidesToShow: 4
+            }
+          },
           {
             breakpoint: 1024,
             settings: {
@@ -155,7 +156,7 @@ export default {
   .slick-next {
     position: absolute;
     right: 3rem;
-    top: 20rem;
+    top: 25rem;
     z-index: 9;
 
     @include respond-to(sm) {
@@ -165,11 +166,7 @@ export default {
 
     &:before {
       font-size: 50px;
-      color: $color-secondary;
-
-      @include respond-to(sm) {
-        color: $color-primary;
-      }
+      color: $color-primary;
     }
 
     @include respond-to(md) {
