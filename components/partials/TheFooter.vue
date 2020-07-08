@@ -22,7 +22,7 @@
             </a>
             <a target="_blank" href="https://www.facebook.com/Pascal-van-der-Steen-design-251418652228243/">
                 <span>
-                    <img src="~/assets/img/icon-facebook-white.svg">
+                    <img src="~/assets/img/icon-facebook-2-white.svg">
                 </span>
             </a>
         </div>
