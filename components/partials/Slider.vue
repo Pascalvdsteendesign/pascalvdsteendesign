@@ -68,7 +68,7 @@ export default {
       settings: {
         infinite: true,
         pauseOnHover: true,
-
+        variableWidth: false,
         slidesToShow: 4,
         arrows: true,
         autoplay: true,
@@ -126,6 +126,9 @@ export default {
     margin-top: -1rem;
   }
 
+  .slick-slider {
+    width: 100%;
+  }
   .my-slider.slick-active {
     opacity: 1;
   }
