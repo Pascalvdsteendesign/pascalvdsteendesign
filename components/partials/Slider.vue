@@ -64,12 +64,10 @@ export default {
         infinite: true,
         pauseOnHover: true,
         slidesToShow: 4,
-        swipeToSlide: true,
         arrows: true,
         autoplay: true,
-        swipeToSlide: true,
+        initialSlide: 0,
 
-        initialSlide: 2,
         responsive: [
           {
             breakpoint: 1024,
