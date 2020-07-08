@@ -2,9 +2,9 @@
 <section class="container header">
     <div class="title">
         <h1>
-            Front-end developer,</br> met passie voor UX-design
+            Front-end developer,<br> met passie voor UX-design
         </h1>
-        <p>Hi, ik ben Pascal. Ik ontwikkel & design websites en</br> webapplicaties, waarbij de gebruikers ervaring </br>altijd centraal staat.</p>
+        <p>Hi, ik ben Pascal. Ik ontwikkel & design websites en<br> webapplicaties, waarbij de gebruikers ervaring <br>altijd centraal staat.</p>
     </div>
 
     <div class="detail">
