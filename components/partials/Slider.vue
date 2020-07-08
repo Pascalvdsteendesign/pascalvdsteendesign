@@ -63,7 +63,6 @@ export default {
       settings: {
         infinite: true,
         pauseOnHover: true,
-        variableWidth: true,
         slidesToShow: 4,
         arrows: true,
         autoplay: true,
@@ -195,7 +194,7 @@ export default {
     .thumb {
       position: relative;
       height: 380px;
-      width: 280px !important;
+      width: 100% !important;
 
       @include respond-to(sm) {
         height: 480px;
