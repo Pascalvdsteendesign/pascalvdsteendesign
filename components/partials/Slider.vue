@@ -27,7 +27,7 @@
                     <div class="bg-image" :style="{ 'background-image': 'url(' + 'https://images.unsplash.com/photo-1587613989342-7e21016caff3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80' + ')' }"> </div>
                     <div class="thumb-inner">
                         <div class="h5">development</div>
-                        <div class="h3 border-b">Byldis<br><span>In opdracht van Nexwork</span></div>
+                        <div class="h3 border-b">Byldis<br>In opdracht van Nexwork</div>
                         <div href="#" class="h5">Meer informatie</div>
                     </div>
                 </a>
@@ -69,14 +69,11 @@ export default {
   data() {
     return {
       settings: {
-        infinite: true,
-        pauseOnHover: true,
-        // mobileFirst: true,
+        infinite: false,
+        speed: 500,
         slidesToShow: 4,
         slidesToScroll: 1,
-        arrows: true,
-        autoplay: true,
-        initialSlide: 2,
+        initialSlide: 0,
         responsive: [
           {
             breakpoint: 1024,
@@ -86,14 +83,14 @@ export default {
             }
           },
           {
-            breakpoint: 767,
+            breakpoint: 600,
             settings: {
               slidesToShow: 2,
               slidesToScroll: 1
             }
           },
           {
-            breakpoint: 575,
+            breakpoint: 480,
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1
