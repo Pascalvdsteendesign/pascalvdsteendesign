@@ -194,9 +194,10 @@ export default {
     .thumb {
       position: relative;
       height: 380px;
-      width: 100% !important;
+      width: 420px !important;
 
       @include respond-to(sm) {
+        width: 100% !important;
         height: 480px;
       }
 
