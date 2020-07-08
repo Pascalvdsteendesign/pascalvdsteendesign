@@ -66,13 +66,13 @@ export default {
   data() {
     return {
       settings: {
-        // infinite: true,
-        // pauseOnHover: true,
+        infinite: true,
+        pauseOnHover: true,
         // mobileFirst: true,
         slidesToShow: 4,
-        // arrows: true,
-        // autoplay: true,
-        // initialSlide: 0,
+        arrows: true,
+        autoplay: true,
+        initialSlide: 2,
 
         responsive: [
           {
