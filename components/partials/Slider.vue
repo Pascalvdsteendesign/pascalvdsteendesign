@@ -69,7 +69,7 @@ export default {
         infinite: true,
         pauseOnHover: true,
         // mobileFirst: true,
-        slidesToShow: 4,
+        slidesToShow: 1,
         arrows: true,
         autoplay: true,
         initialSlide: 2,
