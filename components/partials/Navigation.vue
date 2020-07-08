@@ -7,7 +7,7 @@
     </a>
     <ul class="link-list">
         <li>
-            <a target="_blank" href="mailto:pascalvdsteen@hotmail.com" class="border-b">contact</a>
+            <a target="_blank" href="mailto:hello@pascalvdsteen.com" class="border-b">contact</a>
         </li>
     </ul>
 </div>
@@ -15,37 +15,42 @@
 
 <style lang="scss" scoped>
 .navigation {
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding-right: 2rem;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 2rem;
 
-    @include respond-to(md) {
-        padding-right: 5rem;
-        height: 100px;
+  @include respond-to(md) {
+    padding-right: 5rem;
+    height: 100px;
+  }
+
+  .logo {
+    position: absolute;
+    top: 0.5rem;
+    left: 1.5rem;
+
+    img {
+      width: 50px;
+
+      @include respond-to(md) {
+        width: 80px;
+      }
     }
+  }
 
-    .logo {
-        position: absolute;
-        top: 0.5rem;
-        left: 1.5rem;
+  .link-list {
+    a {
+      color: $color-primary;
+      font-weight: $font-weight-bold;
+      transition: ease 150ms;
+      opacity: 0.5;
 
-        img {
-            width: 50px;
-
-            @include respond-to(md) {
-                width: 80px;
-            }
-        }
+      &:hover {
+        opacity: 1;
+      }
     }
-
-    .link-list {
-        a {
-            color: $color-primary;
-            font-weight: $font-weight-bold;
-            transition: ease 150ms;
-        }
-    }
+  }
 }
 </style>

@@ -70,8 +70,8 @@ h2, .h2
 h3, .h3
 {
     // Mobile font size
-    //font-size: value;
-    //line-height: value;
+   font-size: 1.25rem;
+    line-height: 1.2;
  
     @include respond-to(md)
     {
