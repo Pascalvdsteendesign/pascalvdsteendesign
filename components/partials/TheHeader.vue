@@ -10,7 +10,7 @@
     <div class="detail">
         <span class="h3 border-b">Details</span>
         <div class="icons">
-            <a target="_blank" href="https://www.linkedin.com/in/pascal-v-a453578a">
+            <a target="_blank" href="https://www.linkedin.com/in/pascal-van-der-steen-a453578a/">
                 <span>
                     <img src="~/assets/img/icon-linkedin.svg">
                 </span>
@@ -21,7 +21,7 @@
                     <img src="~/assets/img/icon-mail.svg">
                 </span>
             </a>
-             <a target="_blank" href="https://www.instagram.com/psvdsteen">
+            <a target="_blank" href="https://www.instagram.com/psvdsteen">
                 <span>
                     <img src="~/assets/img/icon-instagram.svg">
                 </span>
@@ -48,7 +48,9 @@
 
         </div>
         <div class="clock-wrapper">
-            <TheClock></TheClock>
+            <a target="_blank" href="mailto:hello@pascalvdsteen.com?subject=Tijd voor een nieuwe website">
+                <TheClock></TheClock>
+            </a>
         </div>
     </div>
 </section>

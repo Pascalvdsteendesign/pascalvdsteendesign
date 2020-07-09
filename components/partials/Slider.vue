@@ -6,10 +6,21 @@
                 <a target="_blank" href="https://www.byldis.com/">
                     <div class="bg-image" :style="{ 'background-image': 'url(' + require('~/assets/img/byldis.jpg') + ')' }"> </div>
                     <div class="thumb-inner">
-                        <div class="h5">development</div>
+                        <div class="h5">Development</div>
                         <div class="h3 border-b">Byldis<div class="h6">In opdracht van Nexwork</div>
                         </div>
-                        <div href="#" class="h5">Meer informatie</div>
+                        <div href="#" class="h5">Bekijk de website</div>
+                    </div>
+                </a>
+            </div>
+               <div class="thumb">
+                <a target="_blank" href="https://minor-education-test.netlify.app/">
+                    <div class="bg-image" :style="{ 'background-image': 'url(' + require('~/assets/img/monitor.jpg') + ')' }"> </div>
+                    <div class="thumb-inner">
+                        <div class="h5">Development (PWA)</div>
+                        <div class="h3 border-b">Leerling monitor<div class="h6">Vraag naar meer info</div>
+                        </div>
+                        <div href="#" class="h5">Bekijk de website</div>
                     </div>
                 </a>
             </div>
@@ -17,9 +28,9 @@
                 <a target="_blank" href="https://www.thanda-ecologischcentrum.nl/">
                     <div class="bg-image" :style="{ 'background-image': 'url(' + require('~/assets/img/thanda.jpg') + ')' }"> </div>
                     <div class="thumb-inner">
-                        <div class="h5">development & design</div>
+                        <div class="h5">Development & design</div>
                         <div class="h3 border-b">Thanda <br>ECB</div>
-                        <div class="h5">Meer informatie</div>
+                        <div href="#" class="h5">Bekijk de website</div>
                     </div>
                 </a>
             </div>
@@ -27,9 +38,9 @@
                 <a href="https://www.mondanifarm.com/">
                     <div class="bg-image" :style="{ 'background-image': 'url(' + require('~/assets/img/mondani.jpg') + ')' }"> </div>
                     <div class="thumb-inner">
-                        <div class="h5">development</div>
+                        <div class="h5">Development & design</div>
                         <div class="h3 border-b">Mondani<br> Farm</div>
-                        <div class="h5">Meer informatie</div>
+                        <div href="#" class="h5">Bekijk de website</div>
                     </div>
                 </a>
             </div>
@@ -38,9 +49,9 @@
                 <a target="_blank" href="https://hoeve-doodleger.netlify.app/">
                     <div class="bg-image" :style="{ 'background-image': 'url(' + require('~/assets/img/hoeve.png') + ')' }"> </div>
                     <div class="thumb-inner">
-                        <div class="h5">development & design</div>
+                        <div class="h5">Development & design</div>
                         <div class="h3 border-b">Hoeve<br> doodleger</div>
-                        <div class="h5">Meer informatie</div>
+                        <div href="#" class="h5">Bekijk de website</div>
                     </div>
                 </a>
             </div>
@@ -50,7 +61,7 @@
                     <div class="thumb-inner">
                         <div class="h5">Contact</div>
                         <div class="h3 border-b">Uw project<br> hier?</div>
-                        <div class="h5">Meer informatie</div>
+                        <div href="#" class="h5">Stel een vraag</div>
                     </div>
                 </a>
             </div>

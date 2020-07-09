@@ -1,10 +1,10 @@
 <template>
 <footer class=" footer">
  <div class="contact">
-   <h2>U heeft een vraag?</h2>
-   <div class="h4">Mail dan naar  <a target="_blank" href="mailto:hello@pascalvdsteen.com" class="border-b">info@pascalvdsteen.com</a></div>
+   <h2>Waar kan ik je mee helpen?</h2>
+   <div class="h4">Neem contact op:<a target="_blank" href="mailto:hello@pascalvdsteen.com" class="border-b">info@pascalvdsteen.com</a></div>
    <div class="icons">
-            <a target="_blank" href="https://www.linkedin.com/in/pascal-v-a453578a">
+            <a target="_blank" href="https://www.linkedin.com/in/pascal-van-der-steen-a453578a/">
                 <span>
                     <img src="~/assets/img/icon-linkedin-white.svg">
                 </span>
@@ -40,6 +40,14 @@
   background-color: $color-black;
   margin: 4rem 0;
   padding: 3rem 2rem 5rem 2rem;
+
+  @include respond-to(md) {
+    width: 80%;
+  }
+
+  .h4 a {
+    margin-left: 1rem;
+  }
 
   h2,
   div,
