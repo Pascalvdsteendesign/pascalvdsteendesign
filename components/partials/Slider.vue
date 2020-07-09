@@ -197,7 +197,7 @@ export default {
       right: -0.5rem;
       top: 0;
       background: $color-secondary;
-      width: calc(100% / 2);
+      width: calc(103% / 2);
       height: 110%;
       opacity: 0.96;
       filter: blur(12px);
@@ -205,15 +205,15 @@ export default {
 
       @include respond-to(sm) {
         display: block;
-        width: calc(100% / 2);
+        width: calc(103% / 2);
       }
 
       @include respond-to(md) {
-        width: calc(100% / 3);
+        width: calc(103% / 3);
       }
 
       @include respond-to(lg) {
-        width: calc(100% / 4);
+        width: calc(103% / 4);
       }
     }
 
