@@ -1,9 +1,9 @@
 <template>
 <footer class=" footer">
- <div class="contact">
-   <h2>Waar kan ik je mee helpen?</h2>
-   <div class="h4">Neem contact op:<a target="_blank" href="mailto:hello@pascalvdsteen.com" class="border-b">info@pascalvdsteen.com</a></div>
-   <div class="icons">
+    <div class="contact">
+        <h2>Waar kan ik je mee helpen?</h2>
+        <div class="h4">Neem contact op:<a target="_blank" href="mailto:hello@pascalvdsteen.com" class="border-b">info@pascalvdsteen.com</a></div>
+        <div class="icons">
             <a target="_blank" href="https://www.linkedin.com/in/pascal-van-der-steen-a453578a/">
                 <span>
                     <img src="~/assets/img/icon-linkedin-white.svg">
@@ -15,7 +15,7 @@
                     <img src="~/assets/img/icon-mail-white.svg">
                 </span>
             </a>
-             <a target="_blank" href="https://www.instagram.com/psvdsteen">
+            <a target="_blank" href="https://www.instagram.com/psvdsteen">
                 <span>
                     <img src="~/assets/img/icon-instagram-white2.svg">
                 </span>
@@ -26,8 +26,8 @@
                 </span>
             </a>
         </div>
- </div>
- 
+    </div>
+
 </footer>
 </template>
 
@@ -58,8 +58,11 @@
   a {
     opacity: 0.5;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1rem;
 
+    @include respond-to(sm) {
+      font-size: 1.5rem;
+    }
     &:hover {
       opacity: 1;
     }

@@ -35,7 +35,7 @@
                 </a>
             </div>
             <div class="thumb">
-                <a href="https://www.mondanifarm.com/">
+                <a target="_blank" href="https://www.mondanifarm.com/">
                     <div class="bg-image" :style="{ 'background-image': 'url(' + require('~/assets/img/mondani.jpg') + ')' }"> </div>
                     <div class="thumb-inner">
                         <div class="h5">Development & design</div>
@@ -97,7 +97,7 @@ export default {
             }
           },
           {
-            breakpoint: 768,
+            breakpoint: 767,
             settings: {
               slidesToShow: 2,
               slidesToScroll: 1
