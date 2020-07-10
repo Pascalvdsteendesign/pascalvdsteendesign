@@ -88,6 +88,7 @@ export default {
         slidesToScroll: 1,
         initialSlide: 0,
         pauseOnHover: true,
+        swipeToSlide: true,
         responsive: [
           {
             breakpoint: 992,
