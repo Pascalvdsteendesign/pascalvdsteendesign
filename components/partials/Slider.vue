@@ -161,13 +161,15 @@ export default {
 
   .slick-next {
     position: absolute;
-    right: 3rem;
-    top: 25rem;
+    width: 50px;
+    height: 50px;
+    right: 1rem;
+    top: 26rem;
     z-index: 9;
 
     @include respond-to(sm) {
-      right: 12rem;
-      top: 11rem;
+      right: 7rem;
+      top: 13rem;
     }
 
     &:before {
@@ -176,15 +178,15 @@ export default {
     }
 
     @include respond-to(md) {
-      right: 7rem;
+      right: 5rem;
     }
 
     @include respond-to(lg) {
-      right: 10rem;
+      right: 5rem;
     }
 
     @include respond-to(xl) {
-      right: 12rem;
+      right: 10rem;
     }
   }
 
