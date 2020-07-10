@@ -4,7 +4,7 @@
         <h1>
             Front-end developer,<br> met passie voor UX-design
         </h1>
-        <p>Hi, ik ben Pascal. Ik ontwikkel & design websites en<br> webapplicaties, waarbij de gebruikers ervaring <br>altijd centraal staat.</p>
+        <p>Hi, ik ben Pascal. Ik ontwikkel & design websites en<br> webapplicaties, waarbij de gebruikerservaring <br>altijd centraal staat.</p>
     </div>
 
     <div class="detail">
@@ -43,7 +43,7 @@
             </div>
             <div class="item">
                 <div class="h4">Gevestigd</div>
-                <div class="small-font">Rijmerstok</div>
+                <div class="small-font">Reijmerstok</div>
             </div>
 
         </div>
