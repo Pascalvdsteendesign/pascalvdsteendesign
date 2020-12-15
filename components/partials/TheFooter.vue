@@ -1,38 +1,54 @@
 <template>
-<footer class=" footer">
+  <footer class=" footer">
     <div class="contact">
-        <h2>Waar kan ik je mee helpen?</h2>
-        <div class="h4">Neem contact op:<a target="_blank" href="mailto:hello@pascalvdsteen.com" class="border-b">info@pascalvdsteen.com</a></div>
-        <div class="icons">
-            <a target="_blank" href="https://www.linkedin.com/in/pascal-van-der-steen-a453578a/">
-                <span>
-                    <img src="~/assets/img/icon-linkedin-white.svg">
-                </span>
-
-            </a>
-            <a target="_blank" href="mailto:hello@pascalvdsteen.com">
-                <span>
-                    <img src="~/assets/img/icon-mail-white.svg">
-                </span>
-            </a>
-            <a target="_blank" href="https://www.instagram.com/psvdsteen">
-                <span>
-                    <img src="~/assets/img/icon-instagram-white2.svg">
-                </span>
-            </a>
-            <a target="_blank" href="https://www.facebook.com/Pascal-van-der-Steen-design-251418652228243/">
-                <span>
-                    <img src="~/assets/img/icon-fb.svg">
-                </span>
-            </a>
-        </div>
+      <h2>Waar kan ik je mee helpen?</h2>
+      <div class="h4">
+        Neem contact op:<a
+          target="_blank"
+          href="mailto:hello@pascalvdsteen.com"
+          class="border-b"
+          >info@pascalvdsteen.com</a
+        >
+      </div>
+      <div class="icons">
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/pascal-van-der-steen-a453578a/"
+        >
+          <span>
+            <img
+              src="~/assets/img/icon-linkedin-white.svg"
+              alt="linkedin-icon"
+            />
+          </span>
+        </a>
+        <a target="_blank" href="mailto:hello@pascalvdsteen.com">
+          <span>
+            <img src="~/assets/img/icon-mail-white.svg" alt="email-icon" />
+          </span>
+        </a>
+        <a target="_blank" href="https://www.instagram.com/psvdsteen">
+          <span>
+            <img
+              src="~/assets/img/icon-instagram-white2.svg"
+              alt="instagram-icon"
+            />
+          </span>
+        </a>
+        <a
+          target="_blank"
+          href="https://www.facebook.com/Pascal-van-der-Steen-design-251418652228243/"
+        >
+          <span>
+            <img src="~/assets/img/icon-fb.svg" alt="facebook-icon" />
+          </span>
+        </a>
+      </div>
     </div>
-
-</footer>
+  </footer>
 </template>
 
-<script>
-</script>
+<script></script>
 
 <style lang="scss" scoped>
 .contact {

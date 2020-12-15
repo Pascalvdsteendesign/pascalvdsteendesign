@@ -1,59 +1,71 @@
 <template>
-<section class="container header">
+  <section class="container header">
     <div class="title">
-        <h1>
-            Front-end developer,<br> met passie voor UX-design
-        </h1>
-        <p>Hi, ik ben Pascal. Ik ontwikkel & design websites en<br> webapplicaties, waarbij de gebruikerservaring <br>altijd centraal staat.</p>
+      <h1>
+        Front-end developer,<br />
+        met passie voor UX-design
+      </h1>
+      <p>
+        Hi, ik ben Pascal. Ik ontwikkel & design websites en<br />
+        webapplicaties, waarbij de gebruikerservaring <br />altijd centraal
+        staat.
+      </p>
     </div>
 
     <div class="detail">
-        <span class="h3 border-b">Details</span>
-        <div class="icons">
-            <a target="_blank" href="https://www.linkedin.com/in/pascal-van-der-steen-a453578a/">
-                <span>
-                    <img src="~/assets/img/icon-linkedin.svg">
-                </span>
-
-            </a>
-            <a target="_blank" href="mailto:hello@pascalvdsteen.com">
-                <span style="font-size: 1.2em; color: rgb(255, 157, 118);;">
-                    <img src="~/assets/img/icon-mail.svg">
-                </span>
-            </a>
-            <a target="_blank" href="https://www.instagram.com/psvdsteen">
-                <span>
-                    <img src="~/assets/img/icon-instagram.svg">
-                </span>
-            </a>
-            <a target="_blank" href="https://www.facebook.com/Pascal-van-der-Steen-design-251418652228243/">
-                <span>
-                    <img src="~/assets/img/icon-facebook-2.svg">
-                </span>
-            </a>
+      <span class="h3 border-b">Details</span>
+      <div class="icons">
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/pascal-van-der-steen-a453578a/"
+        >
+          <span>
+            <img src="~/assets/img/icon-linkedin.svg" alt="linkedin-icon" />
+          </span>
+        </a>
+        <a target="_blank" href="mailto:hello@pascalvdsteen.com">
+          <span style="font-size: 1.2em; color: rgb(255, 157, 118);;">
+            <img src="~/assets/img/icon-mail.svg" alt="email-icon" />
+          </span>
+        </a>
+        <a target="_blank" href="https://www.instagram.com/psvdsteen">
+          <span>
+            <img src="~/assets/img/icon-instagram.svg" alt="instagram-icon" />
+          </span>
+        </a>
+        <a
+          target="_blank"
+          href="https://www.facebook.com/Pascal-van-der-Steen-design-251418652228243/"
+        >
+          <span>
+            <img src="~/assets/img/icon-facebook-2.svg" alt="facebook-icon" />
+          </span>
+        </a>
+      </div>
+      <div class="info">
+        <div class="item">
+          <div class="h4">Functie</div>
+          <div class="small-font">Front-end developer</div>
         </div>
-        <div class="info">
-            <div class="item">
-                <div class="h4">Functie</div>
-                <div class="small-font">Front-end developer</div>
-            </div>
-            <div class="item">
-                <div class="h4">Leeftijd</div>
-                <div class="small-font">24</div>
-            </div>
-            <div class="item">
-                <div class="h4">Gevestigd</div>
-                <div class="small-font">Reijmerstok</div>
-            </div>
-
+        <div class="item">
+          <div class="h4">Leeftijd</div>
+          <div class="small-font">24</div>
         </div>
-        <div class="clock-wrapper">
-            <a target="_blank" href="mailto:hello@pascalvdsteen.com?subject=Tijd voor een nieuwe website">
-                <TheClock></TheClock>
-            </a>
+        <div class="item">
+          <div class="h4">Gevestigd</div>
+          <div class="small-font">Reijmerstok</div>
         </div>
+      </div>
+      <div class="clock-wrapper">
+        <a
+          target="_blank"
+          href="mailto:hello@pascalvdsteen.com?subject=Tijd voor een nieuwe website"
+        >
+          <TheClock></TheClock>
+        </a>
+      </div>
     </div>
-</section>
+  </section>
 </template>
 
 <script>
