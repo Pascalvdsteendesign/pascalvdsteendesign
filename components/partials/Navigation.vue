@@ -1,16 +1,21 @@
 <template>
-<div class="navigation">
+  <div class="navigation">
     <a href="#" class="logo">
-        <span>
-            <img src="~/assets/img/logo.png">
-        </span>
+      <span>
+        <img src="~/assets/img/logo.png" alt="logo" />
+      </span>
     </a>
     <ul class="link-list">
-        <li>
-            <a target="_blank" href="mailto:hello@pascalvdsteen.com" class="border-b">contact</a>
-        </li>
+      <li>
+        <a
+          target="_blank"
+          href="mailto:hello@pascalvdsteen.com"
+          class="border-b"
+          >contact</a
+        >
+      </li>
     </ul>
-</div>
+  </div>
 </template>
 
 <style lang="scss" scoped>
