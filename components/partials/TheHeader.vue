@@ -53,7 +53,7 @@
         </div>
         <div class="item">
           <div class="h4">Gevestigd</div>
-          <div class="small-font">Reijmerstok</div>
+          <div class="small-font">Vaals</div>
         </div>
       </div>
       <div class="clock-wrapper">
