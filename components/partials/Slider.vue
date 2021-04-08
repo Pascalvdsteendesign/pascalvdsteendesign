@@ -1,75 +1,108 @@
 <template>
-<section class="container projects">
+  <section class="container projects">
     <div class="my-slider">
-        <VueSlickCarousel v-bind="settings">
-            <div class="thumb">
-                <a target="_blank" href="https://www.byldis.com/">
-                    <div class="bg-image" :style="{ 'background-image': 'url(' + require('~/assets/img/byldis.jpg') + ')' }"> </div>
-                    <div class="thumb-inner">
-                        <div class="h5">Development</div>
-                        <div class="h3 border-b">Byldis<div class="h6">In opdracht van Nexwork</div>
-                        </div>
-                        <div href="#" class="h5">Bekijk de website</div>
-                    </div>
-                </a>
+      <VueSlickCarousel v-bind="settings">
+        <div class="thumb">
+          <a
+            target="_blank"
+            href="https://play.google.com/store/apps/details?id=app.swipswap.swipswap2&gl=NL"
+          >
+            <div
+              class="bg-image"
+              :style="{
+                'background-image':
+                  'url(' + require('~/assets/img/swipswap.png') + ')'
+              }"
+            ></div>
+            <div class="thumb-inner">
+              <div class="h5">App development & design</div>
+              <div class="h3 border-b">
+                Swip Swap
+                <div class="h6">Vraag naar meer info</div>
+              </div>
+              <div href="#" class="h5">Bekijk de app</div>
             </div>
-               <div class="thumb">
-                <a target="_blank" href="https://minor-education-test.netlify.app/">
-                    <div class="bg-image" :style="{ 'background-image': 'url(' + require('~/assets/img/monitor.jpg') + ')' }"> </div>
-                    <div class="thumb-inner">
-                        <div class="h5">Development (PWA)</div>
-                        <div class="h3 border-b">Leerling monitor<div class="h6">Vraag naar meer info</div>
-                        </div>
-                        <div href="#" class="h5">Bekijk de website</div>
-                    </div>
-                </a>
-            </div>
-            <div class="thumb">
-                <a target="_blank" href="https://www.thanda-ecologischcentrum.nl/">
-                    <div class="bg-image" :style="{ 'background-image': 'url(' + require('~/assets/img/thanda.jpg') + ')' }"> </div>
-                    <div class="thumb-inner">
-                        <div class="h5">Development & design</div>
-                        <div class="h3 border-b">Thanda <br>ECB</div>
-                        <div href="#" class="h5">Bekijk de website</div>
-                    </div>
-                </a>
-            </div>
-            <div class="thumb">
-                <a target="_blank" href="https://www.mondanifarm.com/">
-                    <div class="bg-image" :style="{ 'background-image': 'url(' + require('~/assets/img/mondani.jpg') + ')' }"> </div>
-                    <div class="thumb-inner">
-                        <div class="h5">Development & design</div>
-                        <div class="h3 border-b">Mondani<br> Farm</div>
-                        <div href="#" class="h5">Bekijk de website</div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="thumb">
-                <a target="_blank" href="https://hoeve-doodleger.netlify.app/">
-                    <div class="bg-image" :style="{ 'background-image': 'url(' + require('~/assets/img/hoeve.png') + ')' }"> </div>
-                    <div class="thumb-inner">
-                        <div class="h5">Development & design</div>
-                        <div class="h3 border-b">Hoeve<br> doodleger</div>
-                        <div href="#" class="h5">Bekijk de website</div>
-                    </div>
-                </a>
-            </div>
-            <div class="thumb">
-                <a target="_blank" href="mailto:hello@pascalvdsteen.com">
-                    <div class="bg-image" :style="{ 'background-image': 'url(' + 'https://images.unsplash.com/photo-1554050857-c84a8abdb5e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80' + ')' }"> </div>
-                    <div class="thumb-inner">
-                        <div class="h5">Contact</div>
-                        <div class="h3 border-b">Uw project<br> hier?</div>
-                        <div href="#" class="h5">Stel een vraag</div>
-                    </div>
-                </a>
-            </div>
-        </VueSlickCarousel>
-        <div class="blur">
+          </a>
         </div>
+        <div class="thumb">
+          <a target="_blank" href="https://www.byldis.com/">
+            <div
+              class="bg-image"
+              :style="{
+                'background-image':
+                  'url(' + require('~/assets/img/byldis.jpg') + ')'
+              }"
+            ></div>
+            <div class="thumb-inner">
+              <div class="h5">Development</div>
+              <div class="h3 border-b">
+                Byldis
+                <div class="h6">In opdracht van Nexwork</div>
+              </div>
+              <div href="#" class="h5">Bekijk de website</div>
+            </div>
+          </a>
+        </div>
+        <div class="thumb">
+          <a target="_blank" href="https://minor-education-test.netlify.app/">
+            <div
+              class="bg-image"
+              :style="{
+                'background-image':
+                  'url(' + require('~/assets/img/monitor.jpg') + ')'
+              }"
+            ></div>
+            <div class="thumb-inner">
+              <div class="h5">Development (PWA)</div>
+              <div class="h3 border-b">
+                Leerling monitor
+                <div class="h6">Vraag naar meer info</div>
+              </div>
+              <div href="#" class="h5">Bekijk de website</div>
+            </div>
+          </a>
+        </div>
+        <div class="thumb">
+          <a target="_blank" href="https://www.thanda-ecologischcentrum.nl/">
+            <div
+              class="bg-image"
+              :style="{
+                'background-image':
+                  'url(' + require('~/assets/img/thanda.jpg') + ')'
+              }"
+            ></div>
+            <div class="thumb-inner">
+              <div class="h5">Development & design</div>
+              <div class="h3 border-b">Thanda <br />ECB</div>
+              <div href="#" class="h5">Bekijk de website</div>
+            </div>
+          </a>
+        </div>
+        <div class="thumb">
+          <a target="_blank" href="mailto:hello@pascalvdsteen.com">
+            <div
+              class="bg-image"
+              :style="{
+                'background-image':
+                  'url(' +
+                  'https://images.unsplash.com/photo-1554050857-c84a8abdb5e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80' +
+                  ')'
+              }"
+            ></div>
+            <div class="thumb-inner">
+              <div class="h5">Contact</div>
+              <div class="h3 border-b">
+                Uw project<br />
+                hier?
+              </div>
+              <div href="#" class="h5">Stel een vraag</div>
+            </div>
+          </a>
+        </div>
+      </VueSlickCarousel>
+      <div class="blur"></div>
     </div>
-</section>
+  </section>
 </template>
 
 <script>
@@ -274,6 +307,11 @@ export default {
         a {
           text-decoration: none;
         }
+      }
+
+      .bg-image {
+        background-size: cover;
+        background-position: top;
       }
 
       &:hover {
