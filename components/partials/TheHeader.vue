@@ -49,7 +49,7 @@
         </div>
         <div class="item">
           <div class="h4">Leeftijd</div>
-          <div class="small-font">24</div>
+          <div class="small-font">25</div>
         </div>
         <div class="item">
           <div class="h4">Gevestigd</div>
